@@ -1,8 +1,8 @@
 :root {
     /* Colors */
-    --primary-color: #dc2626;
-    --secondary-color: #ef4444;
-    --dark-color: #000000;
+    --primary-color: #26dc72;
+    --secondary-color: #26dc72;
+    --dark-color: #0a0f0a;
     --light-dark-color: #1a1a1a;
     --lighter-dark-color: #2d2d2d;
     --light-color: #f8f9fa;
@@ -423,6 +423,7 @@ button {
     color: var(--light-text-color);
     font-size: 1.8rem;
     transition: var(--transition);
+    margin-bottom: 7px;
 }
 
 .social-link:hover {
@@ -944,11 +945,8 @@ button {
         width: 100%;
         text-align: center;
     }
-    
+
     .contact-content {
         grid-template-columns: 1fr;
     }
-    
-    
 }
-
